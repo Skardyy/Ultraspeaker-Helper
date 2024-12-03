@@ -32,6 +32,10 @@ impl Game {
 
         return block;
     }
+
+    pub fn reset(&mut self) {
+        self.current_block = 0;
+    }
 }
 
 pub fn create_game() -> Game {

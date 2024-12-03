@@ -13,8 +13,11 @@
     "windows": [
       {
         "title": "ultraspeaker-tauri",
-        "width": 250,
-        "height": 375
+        "alwaysOnTop": true,
+        "backgroundColor": "#15161b",
+        "theme": "Dark",
+        "width": 300,
+        "height": 400
       }
     ],
     "security": {

@@ -14,6 +14,7 @@
     "@mantine/core": "^7.14.3",
     "@mantine/hooks": "^7.14.3",
     "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-global-shortcut": "~2",
     "@tauri-apps/plugin-shell": "^2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

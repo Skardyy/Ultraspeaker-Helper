@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import '@mantine/core/styles.css';
-import { createTheme, MantineProvider, ColorSchemeScript } from "@mantine/core";
+import { MantineProvider, ColorSchemeScript, createTheme } from "@mantine/core";
 
-const theme = createTheme({
-  fontFamily: 'sans-serif',
+export const theme = createTheme({
+  fontFamily: "sans-serif",
   primaryColor: 'blue',
 });
 
